@@ -10,7 +10,7 @@ pinMode(leftMotor2,OUTPUT);   //left motors reverse
 pinMode(rightMotor1,OUTPUT);   //right  motors forward
 pinMode(rightMotor2,OUTPUT);   //right motors reverse
 
-Serial.begin(9600);
+Serial.begin(9600); //begin on correct baud rate
  
 }
  
